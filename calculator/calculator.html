@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculator.js"></script>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body> 
+    <div>
+        <tr><input type="text" placeholder="ENTER NUMBERS" id="madhu">
+      <td >
+    <button onclick="show ('7')"><b>7</b></button>
+</td>
+    <td><button onclick="show ('8')"><b>8</b></button>
+    </td>
+<td><button onclick="show ('9')"><b>9</b></button></td>
+<td><button onclick="show ('/')"><b>÷</b></button></td>
+<th ><button onclick="clearall('ac')" class="time">AC</button></th>
+</tr>
+
+<tr><td>
+    <button onclick="show('4')"><b>4</b></button>
+</td>
+<td><button onclick="show ('5')"><b>5</b></button></td>
+<td><button onclick="show ('6')"><b>6</b></button></td>
+<td><button onclick="show ('-')"><b>-</b></button></td>
+<th><button onclick="det()" class="C"><b>C</b></button></th>
+</tr>
+
+<tr><td><button onclick="show ('1')"><b>1</b></button></td>
+<td><button onclick="show ('2')"><b>2</b></button></td>
+<td><button onclick="show ('3')"><b>3</b></button></td>
+<td><button onclick="show ('*')"><b>x</b></button></td>
+<td><button onclick="show ('/100*')"><b>%</b></button></td></tr>
+<tr><th><button onclick="show ('0')"><b>0</b></button></th>
+<td><button onclick="show ('.')"><b>.</b></button></td>
+<td><button class="time" onclick="calculate ('')"><b>=</b></button></td>
+<td><button onclick="show ('+')"><b>+</b></button></td>
+<th><button onclick="show ('00')"><b>00</b></button></th></tr>
+
+</div>
+</body>
+</html>
